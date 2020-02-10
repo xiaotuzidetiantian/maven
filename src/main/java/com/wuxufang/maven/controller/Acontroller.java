@@ -8,6 +8,7 @@ public class Acontroller {
 
 	@RequestMapping("hello")
 	public String hello() {
+		System.out.println("输出一句话");
 		return "hello";
 	}
 }
